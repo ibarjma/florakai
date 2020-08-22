@@ -17,5 +17,32 @@
 
   <script src="assets/js/svg4everybody.min.js"></script>
   <script>svg4everybody();</script>
+
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBwIv31dUkjvkXcQEZe2POts8aw6ky-VHU",
+    authDomain: "florakai.firebaseapp.com",
+    databaseURL: "https://florakai.firebaseio.com",
+    projectId: "florakai",
+    storageBucket: "florakai.appspot.com",
+    messagingSenderId: "844732519056",
+    appId: "1:844732519056:web:111519db2c2be69e40fe15",
+    measurementId: "G-5WZHZPDX3Z"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+
 </body>
 </html>
