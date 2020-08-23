@@ -39,13 +39,13 @@ body {
     padding-right: 0;
   }
 }
-
+@media (orientation: landscape){}
 .rk-main {
   z-index: 1;
   position: static;
 }
 .top-fixed .rk-main {
-  padding-top: 7rem;
+  padding-top: 6rem;
   padding-left: 7.5%;
   padding-right: 7.5%;
 }
@@ -186,7 +186,7 @@ body {
   position: absolute;
   top: 2.7rem;
   width: 16px;
-  z-index: 300;
+  z-index: 4;
 }
 .rk-mobile-menu + label svg {
   height: 4px;
